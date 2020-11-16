@@ -1,4 +1,4 @@
-# Project Name
+# Snake Game (GUI Java)
 
 This repository is a final project (Java GUI) from Object-Oriented Programming Class, Teknik Informatika Universitas Padjadjaran. 
 
