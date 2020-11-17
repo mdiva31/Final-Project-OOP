@@ -4,7 +4,8 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
 
 [Challenge Guidelines](challenge-guideline.md)
 
-**Please create a description for this project here**
+**Project Snake Gama (GUI Java) Ini jadi terinspirasi dari game classic yang sudah ada dari zaman dulu, yaitu Game Snake. Ini merupakan salah satu game yang sangat terkena
+   dan klasik. Kita Menggunakan GUI Java dengan Memanfaatkan Swing dan konsep OOP.**
 
 ## Credits
 | NPM           | Name        |
@@ -14,13 +15,15 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
 | 140810190030  | Azhar J.U   |
 
 ## Change log
-- **[Sprint Planning](changelog/sprint-planning.md) - (16 Nov- 6 Des)** 
-   -  Short changes 1
-   - Short changes 2
+- **[Sprint Planning](changelog/sprint-planning.md) - (17 Nov)** 
+   - First Scrum Meeting And Sprint Planning About The Project
 
-- **[Sprint 1](changelog/sprint-1.md) - (date from 16 Nov until 22 Nov)** 
-   - Short changes 1
-   - Short changes 2
+- **[Sprint 1](changelog/sprint-1.md) - (date from 16 Nov until 22 Nov) [Still A While]** 
+  a.Creating The Basic User Interface
+   b.Creation Of The Board And Logic Of The Game
+   c.Implementing Object Oriented Programming
+   d.Creating The Snake
+   e.Make Sure That The Snake Will Be Appear In The Board
 
 - **[Sprint 2](changelog/sprint-2.md) - (date from 23 Nov until 29 Nov)** 
    - Short changes 1
