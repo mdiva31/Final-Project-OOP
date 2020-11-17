@@ -4,7 +4,7 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
 
 [Challenge Guidelines](challenge-guideline.md)
 
-**Project Snake Game (GUI Java) Ini jadi terinspirasi dari game classic yang sudah ada dari zaman dulu, yaitu Game Snake. Ini merupakan salah satu game yang sangat terkena
+**Project Snake Game (GUI Java) Ini jadi terinspirasi dari game classic yang sudah ada dari zaman dulu, yaitu Game Snake. Ini merupakan salah satu game yang sangat terkenal
    dan klasik. Kita Menggunakan GUI Java dengan Memanfaatkan Swing dan konsep OOP.**
 
 ## Credits
