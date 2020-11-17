@@ -11,11 +11,11 @@
 ## Sprint Backlog Keseluruhan [Still A While]
 | ID  | Title/Desc | Asignee | 
 | --- | ---------- | ------- | 
-| 1.1 | Creating The Basic User Interface | ? | 
-| 2.2 | Creation Of The Board And Logic Of The Game | ? | 
-| 3.3 | Implementing Object Oriented Programming | ? | 
-| 4.4 | Creating The Snake | ? | 
-| 5.5 | Make Sure That The Snake Will Be Appear In The Board | ? | 
+| 1.1 | Creating The Basic User Interface | Diva | 
+| 2.2 | Creation Of The Board And Logic Of The Game | Diva | 
+| 3.3 | Implementing Object Oriented Programming | Fadlan | 
+| 4.4 | Creating The Snake | Azhar | 
+| 5.5 | Make Sure That The Snake Will Be Appear In The Board | Azhar | 
 | 6.6 | Implementing Keyboard Input | Asignee | 
 | 7.7 | Implementing Movement Of The Snake | Asignee |
 | 8.8 | Implementing The Food | Asignee | 
