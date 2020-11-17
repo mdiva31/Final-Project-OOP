@@ -1,5 +1,5 @@
 # Sprint Planning 
-| 17/11/2001
+| 17/11/2020
 
 ### Team (Insert your name)
 | NPM           | Name        |
