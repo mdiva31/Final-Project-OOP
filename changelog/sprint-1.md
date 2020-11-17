@@ -1,7 +1,7 @@
 # Scrum Report (Sprint 1)
 | From 16/11/2020 to 22/11/2020
 
-## Team (Insert your name)
+## QWERTY
 | NPM           | Name        |
 | ------------- |-------------|
 | 140810190006  | M.Fadlan F  |
