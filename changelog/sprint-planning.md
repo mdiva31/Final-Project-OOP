@@ -1,7 +1,7 @@
 # Sprint Planning 
 | 17/11/2020
 
-### Team (Insert your name)
+### QWERTY
 | NPM           | Name        |
 | ------------- |-------------|
 | 140810190006  | M.Fadlan F. |
