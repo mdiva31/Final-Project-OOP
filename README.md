@@ -19,11 +19,11 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
    - First Scrum Meeting And Sprint Planning About The Project
 
 - **[Sprint 1](changelog/sprint-1.md) - (date from 16 Nov until 22 Nov) [Still A While]** 
-  a.Creating The Basic User Interface
-   b.Creation Of The Board And Logic Of The Game
-   c.Implementing Object Oriented Programming
-   d.Creating The Snake
-   e.Make Sure That The Snake Will Be Appear In The Board
+   - a.Creating The Basic User Interface
+   - b.Creation Of The Board And Logic Of The Game
+   - c.Implementing Object Oriented Programming
+   - d.Creating The Snake
+   - e.Make Sure That The Snake Will Be Appear In The Board
 
 - **[Sprint 2](changelog/sprint-2.md) - (date from 23 Nov until 29 Nov)** 
    - Short changes 1
