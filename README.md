@@ -18,7 +18,7 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
 - **[Sprint Planning](changelog/sprint-planning.md) - (17 Nov)** 
    - First Scrum Meeting And Sprint Planning About The Project
 
-- **[Sprint 1](changelog/sprint-1.md) - (date from 16 Nov until 22 Nov) [Still A While]** 
+- **[Sprint 1](changelog/sprint-1.md) - (date from 16 Nov until 22 Nov)** 
    - Creating The Basic User Interface
    - Creation Of The Board And Logic Of The Game
    - Implementing Object Oriented Programming
