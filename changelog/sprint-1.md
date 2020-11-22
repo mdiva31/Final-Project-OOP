@@ -11,21 +11,28 @@
 ## Sprint Overview
 | Planned (n)   | Completed (n) |
 | ------------- |-------------- |
-| n             | n             |
+| 5             | 5             |
 
 ## Sprint 1 Backlog
 
-| ID  | Title/Desc | Asignee | Status |
-| --- | ---------- | ------- | ------ |
-| 1.1 | Preparing the x | Jane Doe | DONE |
-| 1.2 | Make the x | John Doe | FAILED |
+| ID  | Title/Desc | Asignee | 
+| --- | ---------- | ------- | 
+| 1.1 | Creating The Basic User Interface | Diva | 
+| 2.2 | Creation Of The Board And Logic Of The Game | Diva | 
+| 3.3 | Implementing Object Oriented Programming | Fadlan | 
+| 4.4 | Creating The Snake | Azhar | 
+| 5.5 | Make Sure That The Snake Will Be Appear In The Board | Azhar | 
 
 ## Retrospective 
 
-Sprint kemarin dianggap terlalu sedikit sehingga diperlukan adanya penyesuaian tugas. Lorem ipsum dolor sit amet
+Untuk sprint-1 ini sengaja kami hanya menciptakan board dan snakenya dulu dikarenakan ada kesibukan padat di minggu tersebut.  Jadi dimaksimalkan di minggu-2 untuk utamanya dan minggu-3 untuk finishing segalanya.
 
 ## Next Sprint Backlog (Sprint 2)
 | ID  | Title/Desc | Asignee | 
 | --- | ---------- | ------- | 
-| 2.1 | Preparing the x | Jane Doe | 
-| 2.2 | Make the x | John Doe | 
+| 2.1 | Implementing Keyboard Input | Azhar | 
+| 2.2 | Implementing Movement Of The Snake | Azhar |
+| 2.3 | Implementing The Food | Diva | 
+| 2.4 | Creating The Timer | Diva | 
+| 2.5 | Creating The Score | Fadlan | 
+| 2.6 | Make Sure Everything Is Okay | Fadlan |
