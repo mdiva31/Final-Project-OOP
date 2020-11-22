@@ -35,7 +35,11 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
 
 ## Running The App
 
-TO;DO with steps
+- Ular muncul dengan panjang awal 5 sel dan posisi kepala ada ditengah-tengah area game.
+- Ular akan mulai bergerak maju setelah pengguna memberikan input dengan menekan tombol spasi.
+- Dan juga setelah aplikasi dimulai buah pertama akan muncul secara random.
+- Jika buah termakan oleh ular, maka ular akan bertambah panjangnya pada bagian kepala sebanyak satu sel. Dengan kata lain, pada saat buah dimakan, buah tersebut berubah menjadi kepala baru ular.
+- Jika game selesai, munculkan dialog baru untuk menampilkan score. Dan jika dialog ditutup, game akan mereset ke posisi awal lagi.
 
 ## Classes Used
 
