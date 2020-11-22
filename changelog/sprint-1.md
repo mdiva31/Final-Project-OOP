@@ -15,13 +15,13 @@
 
 ## Sprint 1 Backlog
 
-| ID  | Title/Desc | Asignee | 
-| --- | ---------- | ------- | 
-| 1.1 | Creating The Basic User Interface | Diva | 
-| 2.2 | Creation Of The Board And Logic Of The Game | Diva | 
-| 3.3 | Implementing Object Oriented Programming | Fadlan | 
-| 4.4 | Creating The Snake | Azhar | 
-| 5.5 | Make Sure That The Snake Will Be Appear In The Board | Azhar | 
+| ID  | Title/Desc | Asignee | Status |
+| --- | ---------- | ------- | ------ |
+| 1.1 | Creating The Basic User Interface | Diva | DONE |
+| 2.2 | Creation Of The Board And Logic Of The Game | Diva | DONE |
+| 3.3 | Implementing Object Oriented Programming | Fadlan | DONE |
+| 4.4 | Creating The Snake | Azhar | DONE |
+| 5.5 | Make Sure That The Snake Will Be Appear In The Board | Azhar | DONE |
 
 ## Retrospective 
 
