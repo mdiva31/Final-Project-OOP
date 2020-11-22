@@ -1,17 +1,17 @@
 # Scrum Report (Sprint 2)
-| From dd/mm/yyyy to dd/mm/yyyy
+| From 23/11/2020 to 29/11/2020
 
-## Team (Insert your name)
+## QWERTY
 | NPM           | Name        |
 | ------------- |-------------|
-| 140810xx00xx  | John Doe    |
-| 140810xx00xx  | Jane Doe    |
-| 140810xx00xx  | Lorem Ipsum |
+| 140810190006  | M.Fadlan F  |
+| 140810190022  | M.Diva E.A  |
+| 140810190030  | Azhar J.U   |
 
 ## Sprint Overview
 | Planned (n)   | Completed (n) |
 | ------------- |-------------- |
-| n             | n             |
+| 6             | n             |
 
 ## Sprint 2 Backlog
 
