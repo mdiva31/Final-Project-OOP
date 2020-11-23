@@ -16,12 +16,12 @@
 | 1.3 | Implementing Object Oriented Programming | Fadlan | 
 | 1.4 | Creating The Snake | Azhar | 
 | 1.5 | Make Sure That The Snake Will Be Appear In The Board | Azhar | 
-| 2.1 | Implementing Keyboard Input | Asignee | 
-| 2.2 | Implementing Movement Of The Snake | Asignee |
-| 2.3 | Implementing The Food | Asignee | 
-| 2.4 | Creating The Timer | Asignee | 
-| 2.5 | Creating The Score | Asignee | 
-| 2.6 | Make Sure Everything Is Okay | Asignee |
+| 2.1 | Implementing Keyboard Input | Azhar | 
+| 2.2 | Implementing Movement Of The Snake | Azhar |
+| 2.3 | Implementing The Food | Diva | 
+| 2.4 | Creating The Timer | Diva | 
+| 2.5 | Creating The Score | Fadlan | 
+| 2.6 | Make Sure Everything Is Okay | Fadlan |
 | 3.1 | Implementing Gameover And Restart | Asignee |
 | 3.2 | Beautify The Board And User Interface | Asignee | 
 | 3.3 | Final Testing | Asignee |
