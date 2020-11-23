@@ -35,7 +35,7 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
 
 ## Running The App
 
-- Untuk menjalankan cukup dengan mencompile terlebih dahulu SnakeGame.java dan java SnakeGame di command line.
+- Untuk menjalankan cukup dengan mencompile terlebih dahulu SnakeGame.java dan ketik java SnakeGame di command line.
 - Lalu tinggal mainkan saja gamenya. Selamat mencoba
 
 ## Classes Used
