@@ -22,11 +22,11 @@
 | 2.4 | Creating The Timer | Diva | 
 | 2.5 | Creating The Score | Fadlan | 
 | 2.6 | Make Sure Everything Is Okay | Fadlan |
-| 3.1 | Implementing Gameover And Restart | Asignee |
-| 3.2 | Beautify The Board And User Interface | Asignee | 
-| 3.3 | Final Testing | Asignee |
-| 3.4 | Recover Bug | Asignee |
-| 3.5 | Make Sure The Game Is Ready To Play | Asignee |
+| 3.1 | Implementing Gameover And Restart | Fadlan |
+| 3.2 | Beautify The Board And User Interface | Diva | 
+| 3.3 | Final Testing | Diva |
+| 3.4 | Recover Bug | Azhar |
+| 3.5 | Make Sure The Game Is Ready To Play | Fadlan |
 
 ## Optional Backlog
 | ID  | Title/Desc | Asignee | 
