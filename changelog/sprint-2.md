@@ -17,9 +17,12 @@
 
 | ID  | Title/Desc | Asignee | Status |
 | --- | ---------- | ------- | ------ |
-| 2.1 | Preparing the x | Jane Doe | DONE |
-| 2.2 | Make the x | John Doe | FAILED |
-
+| 2.1 | Implementing Keyboard Input | Azhar | 
+| 2.2 | Implementing Movement Of The Snake | Azhar |
+| 2.3 | Implementing The Food | Diva | 
+| 2.4 | Creating The Timer | Diva | 
+| 2.5 | Creating The Score | Fadlan | 
+| 2.6 | Make Sure Everything Is Okay | Fadlan |
 ## Retrospective 
 
 Sprint kemarin dianggap terlalu sedikit sehingga diperlukan adanya penyesuaian tugas. Lorem ipsum dolor sit amet
