@@ -11,24 +11,27 @@
 ## Sprint Overview
 | Planned (n)   | Completed (n) |
 | ------------- |-------------- |
-| 6             | n             |
+| 6             | 6             |
 
 ## Sprint 2 Backlog
 
 | ID  | Title/Desc | Asignee | Status |
 | --- | ---------- | ------- | ------ |
-| 2.1 | Implementing Keyboard Input | Azhar | 
-| 2.2 | Implementing Movement Of The Snake | Azhar |
-| 2.3 | Implementing The Food | Diva | 
-| 2.4 | Creating The Timer | Diva | 
-| 2.5 | Creating The Score | Fadlan | 
-| 2.6 | Make Sure Everything Is Okay | Fadlan |
+| 2.1 | Implementing Keyboard Input | Azhar | DONE |
+| 2.2 | Implementing Movement Of The Snake | Azhar | DONE |
+| 2.3 | Implementing The Food | Diva |  DONE |
+| 2.4 | Creating The Timer | Diva | DONE |
+| 2.5 | Creating The Score | Fadlan | DONE |
+| 2.6 | Make Sure Everything Is Okay | Fadlan | DONE |
 ## Retrospective 
 
-Sprint kemarin dianggap terlalu sedikit sehingga diperlukan adanya penyesuaian tugas. Lorem ipsum dolor sit amet
+Sprint dua kali ini kami sudah memasukkan beberapa hal penting dalam permainan seperti Rules, Food juga , Input Keyboard dan hal utama lainnya. Kami juga telah mencicil sedikit-demi sedikit untuk sprint-3. Sisa sprint-3 nanti akan digunakan untuk memastikan program sesuai dengan challenge-guideline. Dan juga kalau memungkinkan menerapkan yang ada di optional backlog. Serta merapihkan dan menyelesaikan yang tersisa di repository ini.
 
 ## Next Sprint Backlog (Sprint 3)
 | ID  | Title/Desc | Asignee | 
 | --- | ---------- | ------- | 
-| 3.1 | Preparing the x | Jane Doe | 
-| 3.2 | Make the x | John Doe | 
+| 3.1 | Implementing Gameover And Restart | Fadlan |
+| 3.2 | Beautify The Board And User Interface | Diva | 
+| 3.3 | Final Testing | Diva |
+| 3.4 | Recover Bug | Azhar |
+| 3.5 | Make Sure The Game Is Ready To Play | Fadlan |
