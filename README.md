@@ -18,7 +18,7 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
 - **[Sprint Planning](changelog/sprint-planning.md) - (17 Nov)** 
    - First Scrum Meeting And Sprint Planning About The Project
 
-- **[Sprint 1](changelog/sprint-1.md) - (date from 16 Nov until 22 Nov) [Still A While]** 
+- **[Sprint 1](changelog/sprint-1.md) - (date from 16 Nov until 22 Nov)** 
    - Creating The Basic User Interface
    - Creation Of The Board And Logic Of The Game
    - Implementing Object Oriented Programming
@@ -26,16 +26,25 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
    - Make Sure That The Snake Will Be Appear In The Board
 
 - **[Sprint 2](changelog/sprint-2.md) - (date from 23 Nov until 29 Nov)** 
-   - Short changes 1
-   - Short changes 2
+  - Implementing Keyboard Input 
+  - Implementing Movement Of The Snake 
+  - Implementing The Food 
+  - Creating The Timer 
+  - Creating The Score 
+  - Make Sure Everything Is Okay 
    
-- **[Sprint 3](changelog/sprint-3.md) - (date from 30 Nov until 6 Des)** 
-   - Short changes 1
-   - Short changes 2
+- **[Sprint 3](changelog/sprint-3.md) - (date from 30 Nov until 5 Des)** 
+  - Implementing Gameover And Restart 
+  - Beautify The Board And User Interface
+  - Final Testing 
+  - Recover Bug 
+  - Make Sure The Game Is Ready To Play 
+  - Implementation Of Optional Backlog (If Possible)
 
 ## Running The App
 
-TO;DO with steps
+- Untuk menjalankan cukup dengan mencompile terlebih dahulu SnakeGame.java dan ketik java SnakeGame di command line.
+- Lalu tinggal mainkan saja gamenya. Selamat mencoba
 
 ## Classes Used
 
@@ -45,4 +54,8 @@ UML image here
 
 ## Notable Assumption and Design App Details
 
-TO;DO
+- Ular muncul dengan panjang awal 5 sel dan posisi kepala ada ditengah-tengah area game.
+- Ular akan mulai bergerak maju setelah pengguna memberikan input dengan menekan tombol spasi.
+- Dan juga setelah aplikasi dimulai buah pertama akan muncul secara random.
+- Jika buah termakan oleh ular, maka ular akan bertambah panjangnya pada bagian kepala sebanyak satu sel. Dengan kata lain, pada saat buah dimakan, buah tersebut berubah menjadi kepala baru ular.
+- Jika game selesai, munculkan dialog baru untuk menampilkan score. Dan jika dialog ditutup, game akan mereset ke posisi awal lagi.
