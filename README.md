@@ -26,12 +26,20 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
    - Make Sure That The Snake Will Be Appear In The Board
 
 - **[Sprint 2](changelog/sprint-2.md) - (date from 23 Nov until 29 Nov)** 
-   - Short changes 1
-   - Short changes 2
+  - Implementing Keyboard Input 
+  - Implementing Movement Of The Snake 
+  - Implementing The Food 
+  - Creating The Timer 
+  - Creating The Score 
+  - Make Sure Everything Is Okay 
    
-- **[Sprint 3](changelog/sprint-3.md) - (date from 30 Nov until 6 Des)** 
-   - Short changes 1
-   - Short changes 2
+- **[Sprint 3](changelog/sprint-3.md) - (date from 30 Nov until 5 Des)** 
+  - Implementing Gameover And Restart 
+  - Beautify The Board And User Interface
+  - Final Testing 
+  - Recover Bug 
+  - Make Sure The Game Is Ready To Play 
+  - Implementation Of Optional Backlog (If Possible)
 
 ## Running The App
 
