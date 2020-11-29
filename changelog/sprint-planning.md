@@ -31,10 +31,10 @@
 ## Optional Backlog
 | ID  | Title/Desc | Asignee | 
 | --- | ---------- | ------- | 
-| 4.1 | Implementing Score Leaderboard | Asignee | 
-| 4.2 | Increasing The Difficulty All The Time | Asignee | 
-| 4.3 | Make The Obstacle | Asignee | 
-| 4.4 | Menu Bar  | Asignee | 
+| 4.1 | Implementing Score Leaderboard | All | 
+| 4.2 | Implementing The Difficulty | All | 
+| 4.3 | Make The Obstacle | All | 
+| 4.4 | Menu Bar  | All | 
 
 ## Sprint Backlog Plan (Sprint 1)
 | ID  | Title/Desc | Asignee | 
