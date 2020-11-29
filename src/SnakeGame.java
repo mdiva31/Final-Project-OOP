@@ -1,19 +1,26 @@
-import java.awt.*;
-import javax.swing.*;
+import java.awt.EventQueue;
 
-public class SnakeGame {
-        public static void main (String[] args) {
-        JFrame snake = new JFrame();
-        snake.setTitle("Snake Game GUI Java");
-        snake.setBounds(0,0, 2500, 2500);
-        snake.setBackground(Color.DARK_GRAY);
-        snake.setResizable(false);
-        snake.setVisible(true);
-        snake.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        Board board = new Board();
-        SnakeBody body = new SnakeBody();
-        snake.add(board);
-        }
+public class SnakeGame {	
+	
+	public static GUI gui;
+	
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					gui = new GUI();
+					gui.createGameWindow();
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+		
+	}
 
 }
+
+
+
+
