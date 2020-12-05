@@ -48,14 +48,20 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
 
 ## Classes Used
 
-TO;DO
+### Kelas-Kelas yang dipakai
+- 1.Kelas SnakeGame, yang merupakan Main Class dari aplikasi ini
+- 2.Kelas Snake, yang merupakan class untuk membuat snake itu sendiri
+- 3.Kelas GUI, yang merupakan class yang digunakan untuk membuat tampilan GUI secara keseluruhan
+- 4.Kelas Rules, yang merupakan sebuah class untuk menetapkan peraturan atau logic dari aplikasi itu sendiri
+- 5.Kelas Food, yang merupakan sebuah class untuk makanan atau food yang dimakan oleh Snake.
 
 UML image here
 
 ## Notable Assumption and Design App Details
 
-- Ular muncul dengan panjang awal 5 sel dan posisi kepala ada ditengah-tengah area game.
-- Ular akan mulai bergerak maju setelah pengguna memberikan input dengan menekan tombol spasi.
-- Dan juga setelah aplikasi dimulai buah pertama akan muncul secara random.
+- Pengguna akan diberikan tampilan atau menu awal yang terdiri dari Start Game, Pilihan Difficulty (Easy,Medium,dan Hard), dan Exit Game. 
+- Setelah pengguna menekan spasi di Start Game, ular muncul dengan panjang awal 5 sel dan posisi kepala ada ditengah-tengah area game.
+- Ular akan mulai bergerak maju setelah pengguna masuk kedalam Start Game tadi.
+- Dan juga setelah ditekan Start Game buah pertama akan muncul secara random.
 - Jika buah termakan oleh ular, maka ular akan bertambah panjangnya pada bagian kepala sebanyak satu sel. Dengan kata lain, pada saat buah dimakan, buah tersebut berubah menjadi kepala baru ular.
 - Jika game selesai, munculkan dialog baru untuk menampilkan score. Dan jika dialog ditutup, game akan mereset ke posisi awal lagi.
