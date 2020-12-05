@@ -49,11 +49,11 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
 ## Classes Used
 
 ### Kelas-Kelas yang dipakai
-- 1.Kelas SnakeGame, yang merupakan Main Class dari aplikasi ini
-- 2.Kelas Snake, yang merupakan class untuk membuat snake itu sendiri
-- 3.Kelas GUI, yang merupakan class yang digunakan untuk membuat tampilan GUI secara keseluruhan
-- 4.Kelas Rules, yang merupakan sebuah class untuk menetapkan peraturan atau logic dari aplikasi itu sendiri
-- 5.Kelas Food, yang merupakan sebuah class untuk makanan atau food yang dimakan oleh Snake.
+- Kelas SnakeGame, yang merupakan Main Class dari aplikasi ini
+- Kelas Snake, yang merupakan class untuk membuat snake itu sendiri
+- Kelas GUI, yang merupakan class yang digunakan untuk membuat tampilan GUI secara keseluruhan
+- Kelas Rules, yang merupakan sebuah class untuk menetapkan peraturan atau logic dari aplikasi itu sendiri
+- Kelas Food, yang merupakan sebuah class untuk makanan atau food yang dimakan oleh Snake.
 
 UML image here
 
