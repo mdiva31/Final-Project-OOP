@@ -1,7 +1,7 @@
 # Scrum Report (Sprint 3)
 | From 30/11/2020 to 05/12/2020
 
-## Team (Insert your name)
+## QWERTY
 | NPM           | Name        |
 | ------------- |-------------|
 | 140810190006  | M.Fadlan Fasya   |
@@ -11,19 +11,19 @@
 ## Sprint Overview
 | Planned (n)   | Completed (n) |
 | ------------- |-------------- |
-| 5             | n             |
+| 5             | 5             |
 
 ## Sprint 3 Backlog
 
-| ID  | Title/Desc | Asignee | 
-| --- | ---------- | ------- | 
-| 3.1 | Implementing Gameover And Restart | Fadlan |
-| 3.2 | Beautify The Board And User Interface | Diva | 
-| 3.3 | Final Testing | Diva |
-| 3.4 | Recover Bug | Azhar |
-| 3.5 | Make Sure The Game Is Ready To Play | Fadlan |
+| ID  | Title/Desc | Asignee | Status |
+| --- | ---------- | ------- | ------ |
+| 3.1 | Implementing Gameover And Restart | Fadlan | DONE |
+| 3.2 | Beautify The Board And User Interface | Diva | DONE |
+| 3.3 | Final Testing | Diva | DONE |
+| 3.4 | Recover Bug | Azhar | DONE |
+| 3.5 | Make Sure The Game Is Ready To Play | Fadlan | DONE |
 
 ## Retrospective 
 
-Sprint kemarin dianggap terlalu sedikit sehingga diperlukan adanya penyesuaian tugas. Lorem ipsum dolor sit amet
+Alhamdulillah untuk sprint-3 ini sudah terlaksana semua , karena juga backlog sprint 3 ini ada yang dikerjakan di sprint-2 sehingga bisa mengurangi beban dan untuk overall sprint keseluruhan sudah terlaksana, dan juga ada beberapa sprint backlog alternatif atau yang bersifat opsional yang sudah diterapkan seperti implementasi Difficulty dan juga implementasi Menu Bar diawal. 
 
