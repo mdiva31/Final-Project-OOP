@@ -55,7 +55,7 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
 - Kelas Rules, yang merupakan sebuah class untuk menetapkan peraturan atau logic dari aplikasi itu sendiri
 - Kelas Food, yang merupakan sebuah class untuk makanan atau food yang dimakan oleh Snake.
 
-UML image here
+![Gambar UML Snake](images/UML.png)
 
 ## Notable Assumption and Design App Details
 
