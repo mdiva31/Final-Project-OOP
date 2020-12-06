@@ -4,14 +4,13 @@ import java.util.ArrayList;
 
 public class Snake {
 	
-	private int snakeX = 100;
-	private int snakeY = 100;
+	private int snakeX = 200;
+	private int snakeY = 175;
 	private boolean snakeUp = false;
 	private boolean snakeDown = false;
 	private boolean snakeLeft = false;
 	private boolean snakeRight = true;
-	private  ArrayList<Rectangle> list = new ArrayList<Rectangle>();
-	
+	private ArrayList<Rectangle> list = new ArrayList<Rectangle>();
 	
 	public  ArrayList<Rectangle> getList() {
 		return list;
