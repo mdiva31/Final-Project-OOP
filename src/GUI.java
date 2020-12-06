@@ -20,23 +20,22 @@ public class GUI {
 	private Food food;
 	private Font fontMenu;
 	private Font fontHeader;
+	private Font fontQwerty;
 	
 	public GUI() {
     	rules = new Rules();
     	rules.setRules(rules);
 	}
-	
 
 	public void createGameWindow() {
 		
-		f1 = new JFrame("Snake Game");
-		f1.setSize(675, 395);
+		f1 = new JFrame("Snake Game (Swing)");
+		f1.setSize(600, 600);
 		f1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     	
 		try {
 			UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
 		} catch (ClassNotFoundException | InstantiationException | IllegalAccessException | UnsupportedLookAndFeelException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
@@ -47,7 +46,8 @@ public class GUI {
 		
 		//Create Fonts
 	    fontMenu = new Font( Font.SANS_SERIF, Font.PLAIN, 12 );
-	    fontHeader = new Font( Font.SANS_SERIF, Font.BOLD, 16 );
+		fontHeader = new Font( Font.SANS_SERIF, Font.BOLD, 16 );
+		fontQwerty = new Font( "Comic Sans MS", Font.BOLD | Font.ITALIC, 48 );
 		
 		f1.requestFocus();	
 		f1.repaint();
@@ -165,8 +165,8 @@ public class GUI {
 				rules.setMenuSelection("Exit game");
 				GUI.f1.repaint();
 			}	
-		//Enter	
-		}else if(e.getKeyCode()==10) {
+		//Space	
+		}else if(e.getKeyCode()==32) {
 			switch(rules.getMenuSelection()) {
 			case "Restart game":
 				rules.restartGame();
@@ -233,8 +233,8 @@ public class GUI {
 				rules.setMenuSelection("Exit game");
 				GUI.f1.repaint();
 			}	
-		//Enter
-		}else if(e.getKeyCode()==10) {
+		//Space
+		}else if(e.getKeyCode()==32) {
 			switch(rules.getMenuSelection()) {
 			case "Restart game":
 				rules.restartGame();
@@ -279,8 +279,8 @@ public class GUI {
 				GUI.f1.repaint();
 			}
 		}
-		//Enter
-		else if(e.getKeyCode()==10) {
+		//Space
+		else if(e.getKeyCode()==32) {
 		switch(rules.getMenuSelection()) {
 		case "Start game":
 			rules.startGame(rules);
@@ -296,24 +296,24 @@ public class GUI {
 
 	public void drawPauseMenu(Graphics2D g2) {
 		g2.setColor(Color.BLACK);
-		g2.fillRect(0, 0, 400, 400);
+		g2.fillRect(0, 0, 600, 600);
 		g2.setColor(Color.WHITE);
 		g2.setFont(fontHeader);
-		g2.drawString("Pause menu", 100, 100);
+		g2.drawString("Pause menu", 250, 100);
 		g2.setFont(fontMenu);
-		g2.drawString("Restart game", 100, 200);
-		g2.drawString("Back to main menu", 100, 250);
-		g2.drawString("Exit game", 100, 300);
+		g2.drawString("Restart game", 250, 200);
+		g2.drawString("Back to main menu", 250, 250);
+		g2.drawString("Exit game", 250, 300);
 		
 		switch (rules.getMenuSelection()) {
 		  case "Restart game":
-			g2.fillOval(70, 190, 10, 10);
+			g2.fillOval(200, 190, 10, 10);
 			break; 
 		  case "Back to main menu":
-			g2.fillOval(70, 240, 10, 10);
+			g2.fillOval(200, 240, 10, 10);
 			break; 
 		  case "Exit game":
-				g2.fillOval(70, 290, 10, 10);
+				g2.fillOval(200, 290, 10, 10);
 				break; 	
 		}	
 	}
@@ -322,25 +322,47 @@ public class GUI {
 		// -------------------------------------------------------------------------------------------
 		// Draw current game (left part of the game)
 		g2.setColor(Color.WHITE);
-		g2.fillRect(0, 0, 400, 400);
+		g2.fillRect(0, 0, 400, 350);
 		//draw walls
 		g2.setColor(Color.BLACK);
-		g2.fillRect(395, 0, 10, 400);
-		g2.fillRect(0, 0, 10, 400);		
-		g2.fillRect(0, 0, 400, 10);
-		g2.fillRect(0, 350, 400, 10);
-		
+		g2.fillRect(390, 0, 10, 360);
+		g2.fillRect(0, 0, 10, 360);		
+		g2.fillRect(0, 0, 400, 5);
+		g2.fillRect(0, 360, 400, 10);
+		g2.setColor(Color.RED);
+		g2.fillRect(410,0,190,250);
+		g2.setColor(Color.WHITE);
+		g2.setFont(fontMenu);
+		g2.drawString("Ini merupakan game Snake", 410, 40);
+		g2.drawString("menggunakan Java Swing", 410, 60);
+		g2.drawString("Made By : QWERTY", 410, 90);
+		g2.drawString("Team : ", 410, 110);
+		g2.drawString("Azhar Jauharul Umam", 410, 140);
+		g2.drawString("M.Diva Eka Andriana", 410, 180);
+		g2.drawString("M.Fadlan Fasya", 410, 220);
+
+		g2.setColor(Color.BLUE);
+		g2.fillRect(0,370,600,600);
+		g2.setColor(Color.WHITE);
+		g2.setFont(fontQwerty);
+		g2.drawString("Q",10,480);
+		g2.drawString("W",110,480);
+		g2.drawString("E",210,480);
+		g2.drawString("R",310,480);
+		g2.drawString("T",410,480);
+		g2.drawString("Y",510,480);
 	
 		//draw snake
+		g2.setColor(Color.BLACK);
 		for(int i=1; i<=snake.getList().size(); i++) { 
-			g2.fillRect(snake.getList().get(i-1).x,snake.getList().get(i-1).y, 10, 10);
+			g2.fillRect(snake.getList().get(i-1).x,snake.getList().get(i-1).y, 6, 6);
 		}
 		
 		
 		
 		if(food.isFoodPlaced() == true) {
 			g2.setColor(Color.GREEN);
-			g2.fillRect(food.getFoodX(), food.getFoodY(), 10, 10);
+			g2.fillRect(food.getFoodX(), food.getFoodY(), 6, 6);
 		}
 		
 		
@@ -352,26 +374,27 @@ public class GUI {
 		
 		g2.setColor(Color.BLACK);
 		g2.setFont(fontMenu);
+		g2.drawString("LIVE POPUP SCORE", 420, 270);
 		if(rules.getMinutes()<10 && rules.getSeconds()<10) {								//05:05
 			
-			g2.drawString("0"+rules.getMinutes()+":0"+rules.getSeconds(), 420, 50);
+			g2.drawString("0"+rules.getMinutes()+":0"+rules.getSeconds(), 420, 290);
 			
 		}else if(rules.getMinutes()<10 && rules.getSeconds()>9) {							//05:55
 			
-			g2.drawString("0"+rules.getMinutes()+":"+rules.getSeconds(), 420, 50);
+			g2.drawString("0"+rules.getMinutes()+":"+rules.getSeconds(), 420, 290);
 			
 		}else if(rules.getMinutes()>9 && rules.getSeconds()>9) {							//55:55
 			
-			g2.drawString(rules.getMinutes()+":"+rules.getSeconds(), 420, 50);
+			g2.drawString(rules.getMinutes()+":"+rules.getSeconds(), 420, 290);
 			
 		}else if(rules.getMinutes()>9 && rules.getSeconds()<10) {							//55:05
 			
-			g2.drawString(rules.getMinutes()+":0"+rules.getSeconds(), 420, 50);
+			g2.drawString(rules.getMinutes()+":0"+rules.getSeconds(), 420, 290);
 			
 		}
 		
-		g2.drawString("Score: "+rules.getScore(), 420, 100);
-		g2.drawString("Max score left: "+rules.getMaxScoreLeft(), 420, 150);
+		g2.drawString("Score: "+rules.getScore(), 420, 310);
+		g2.drawString("Max score left: "+rules.getMaxScoreLeft(), 420, 330);
 		
 		
 		// -------------------------------------------------------------------------------------------
@@ -379,110 +402,108 @@ public class GUI {
 	
 	public void drawBlinkAnimation1(Graphics2D g2) {
 		g2.setColor(Color.WHITE);
-		g2.fillRect(0, 0, 400, 400);
-		g2.setColor(Color.BLACK);
+		g2.fillRect(0, 0, 400, 350);
 		//draw walls
 		g2.setColor(Color.BLACK);
-		g2.fillRect(395, 0, 10, 400);
-		g2.fillRect(0, 0, 10, 400);		
-		g2.fillRect(0, 0, 400, 10);
-		g2.fillRect(0, 350, 400, 10);
-	
+		g2.fillRect(390, 0, 10, 360);
+		g2.fillRect(0, 0, 10, 360);		
+		g2.fillRect(0, 0, 400, 5);
+		g2.fillRect(0, 360, 400, 10);
+		
 
 		//draw snake
 		for(int i=1; i<=snake.getList().size(); i++) { 
-			g2.fillRect(snake.getList().get(i-1).x,snake.getList().get(i-1).y, 10, 10);
+			g2.fillRect(snake.getList().get(i-1).x,snake.getList().get(i-1).y, 6, 6);
 		}
 		
 
 		if(food.isFoodPlaced() == true) {
 			g2.setColor(Color.GREEN);
-			g2.fillRect(food.getFoodX(), food.getFoodY(), 10, 10);
+			g2.fillRect(food.getFoodX(), food.getFoodY(), 6, 6);
 		}
 	}
 	
 	public void drawBlinkAnimation2(Graphics2D g2) {
 		//draw walls
 		g2.setColor(Color.BLACK);
-		g2.fillRect(395, 0, 10, 400);
-		g2.fillRect(0, 0, 10, 400);		
-		g2.fillRect(0, 0, 400, 10);
-		g2.fillRect(0, 350, 400, 10);
-		
+		g2.fillRect(390, 0, 10, 360);
+		g2.fillRect(0, 0, 10, 360);		
+		g2.fillRect(0, 0, 400, 5);
+		g2.fillRect(0, 360, 400, 10);
 		// for blinking animation
 		g2.setColor(Color.WHITE);
 		g2.fillRect(0, 0, 400, 400);
 		
 		//draw walls
 		g2.setColor(Color.BLACK);
-		g2.fillRect(395, 0, 10, 400);
-		g2.fillRect(0, 0, 10, 400);		
-		g2.fillRect(0, 0, 400, 10);
-		g2.fillRect(0, 350, 400, 10);
+		g2.fillRect(390, 0, 10, 360);
+		g2.fillRect(0, 0, 10, 360);		
+		g2.fillRect(0, 0, 400, 5);
+		g2.fillRect(0, 360, 400, 10);
 	}
 	
 	public void drawGameOver(Graphics2D g2) {
 		g2.setColor(Color.BLACK);
-		g2.fillRect(0, 0, 400, 400);
+		g2.fillRect(0, 0, 600, 600);
 		g2.setColor(Color.WHITE);
 		g2.setFont(fontHeader);
-		g2.drawString("Game over! \n Your score: "+rules.getScore(), 100, 100);
+		g2.drawString("Game over! \n Your score: "+rules.getScore(), 250, 100);
 		g2.setFont(fontMenu);
-		g2.drawString("Restart game", 100, 200);
-		g2.drawString("Exit game", 100, 250);
+		g2.drawString("Restart game", 250, 200);
+		g2.drawString("Exit game", 250, 250);
 		
 		switch (rules.getMenuSelection()) {
 
 		  case "Restart game":
-			g2.fillOval(70, 190, 10, 10);
+			g2.fillOval(200, 190, 10, 10);
 			break; 
 		  case "Exit game":
-			g2.fillOval(70, 240, 10, 10);
+			g2.fillOval(200, 240, 10, 10);
 			break;
 		  case "Difficulty":
-			  g2.fillOval(70, 290, 10, 10);
+			  g2.fillOval(200, 290, 10, 10);
 			  break;
 		}	
 	}
 	
 	public void drawStartMenu(Graphics2D g2) {
 		g2.setColor(Color.BLACK);
-		g2.fillRect(0, 0, 400, 400);
+		g2.fillRect(0, 0, 600, 600);
 		g2.setColor(Color.WHITE);
 		g2.setFont(fontHeader);
-		g2.drawString("Snake", 100, 100);
+		g2.drawString("Snake Game By: QWERTY", 250, 100);
 		g2.setFont(fontMenu);
-		g2.drawString("Start game", 100, 200);
-		g2.drawString("Difficulty:", 100, 250);
-		g2.drawString("Exit game", 100, 300);
-		g2.drawString("Easy", 205, 250);
-		g2.drawString("Normal", 255, 250);
-		g2.drawString("Hard", 305, 250);
+		g2.drawString("Start game", 250, 200);
+		g2.drawString("Difficulty:", 250, 250);
+		g2.drawString("Exit game", 250, 300);
+		g2.drawString("Easy", 305, 250);
+		g2.drawString("Normal", 355, 250);
+		g2.drawString("Hard", 405, 250);
 
 		
 		switch (rules.getMenuSelection()) {
 
 		  case "Start game":
-			g2.fillOval(70, 190, 10, 10);
+			g2.fillOval(200, 190, 10, 10);
 			break; 
 		  case "Difficulty":
-			g2.fillOval(70, 240, 10, 10);
+			g2.fillOval(200, 240, 10, 10);
 			break; 
 		  case "Exit game":
-				g2.fillOval(70, 290, 10, 10);
+				g2.fillOval(200, 290, 10, 10);
 				break; 
 		}	
 		
 		
 		switch(rules.getDifficultyLevel()) {
 		case 0:
-			g2.drawRect(202, 239, 31, 14);		
+			g2.drawRect(305, 239, 31, 14);		
 			break;
 		case 1:
-			g2.drawRect(252, 239, 45, 14);
+			g2.drawRect(355, 239, 45, 14);
 			break;
 		case 2:
-			g2.drawRect(302, 239, 32, 14);
+			g2.drawRect(405, 239, 32, 14);
 			break;
 
 		}
