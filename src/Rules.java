@@ -45,8 +45,8 @@ public class Rules implements Runnable {
 	}
 	
 	public void restartGame() {
-		snake.setSnakeX(100);
-		snake.setSnakeY(100);
+		snake.setSnakeX(300);
+		snake.setSnakeY(275);
 		snake.setSnakeLeft(false);
 		snake.setSnakeUp(false);
 		snake.setSnakeDown(false);
@@ -57,7 +57,7 @@ public class Rules implements Runnable {
 		rules.setMaxScoreLeft(100);
 		rules.setPause(false);
 		snake.getList().clear();
-		snake.getList().add(new Rectangle(snake.getSnakeX(), snake.getSnakeY(), 10, 10));
+		snake.getList().add(new Rectangle(snake.getSnakeX(), snake.getSnakeY(), 6, 6));
 	}
 
 
@@ -104,7 +104,11 @@ public class Rules implements Runnable {
 		SnakeGame.gui.setFood(food);							
 		SnakeGame.gui.setSnake(snake);
 		
-		snake.getList().add(new Rectangle(snake.getSnakeX(), snake.getSnakeY(), 10, 10));
+		snake.getList().add(new Rectangle(snake.getSnakeX(), snake.getSnakeY(), 0, 0));
+		snake.getList().add(new Rectangle(snake.getSnakeX(), snake.getSnakeY(), 0, 0));
+		snake.getList().add(new Rectangle(snake.getSnakeX(), snake.getSnakeY(), 0, 0));
+		snake.getList().add(new Rectangle(snake.getSnakeX(), snake.getSnakeY(), 0, 0));
+		snake.getList().add(new Rectangle(snake.getSnakeX(), snake.getSnakeY(), 0, 0));
 
 		long startTime = System.currentTimeMillis();
 		long currentTime = 0;
@@ -114,25 +118,19 @@ public class Rules implements Runnable {
 			
 				if(rules.isPause()==false) {
 
-					//inputhandling and collisiondetecion for walls
 					collisionWall();
 					
-					//place food if it's not placed
 					placeFood();
 					
-					//refresh max score left
 					if(rules.getMaxScoreLeft()>0) {
 						rules.setMaxScoreLeft(rules.getMaxScoreLeft()-1);
 					}
 				
-					//snake collided with food?
 					collisionFood();
 						
-					//snake collided with itself?
 					collisionSnake();
 					
-					//draw snake correct -> add new head and remove last body-part
-					snake.getList().add(new Rectangle(snake.getSnakeX(), snake.getSnakeY(), 10, 10));
+					snake.getList().add(new Rectangle(snake.getSnakeX(), snake.getSnakeY(), 6, 6));
 					snake.getList().remove(0);
 					
 					//time-info
@@ -208,7 +206,7 @@ public class Rules implements Runnable {
 		if(Math.abs(food.getFoodX()-snake.getSnakeX())<=8  &&  Math.abs(food.getFoodY()-snake.getSnakeY())<=8) {
 			food.setFoodPlaced(false);
 
-			snake.getList().add(new Rectangle(snake.getSnakeX(), snake.getSnakeY(), 10, 10));
+			snake.getList().add(new Rectangle(snake.getSnakeX(), snake.getSnakeY(), 6, 6));
 
 			rules.score += rules.getMaxScoreLeft();
 		}
