@@ -64,4 +64,6 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
 - Ular akan mulai bergerak maju setelah pengguna masuk kedalam Start Game tadi.
 - Dan juga setelah ditekan Start Game buah pertama akan muncul secara random.
 - Jika buah termakan oleh ular, maka ular akan bertambah panjangnya pada bagian kepala sebanyak satu sel. Dengan kata lain, pada saat buah dimakan, buah tersebut berubah menjadi kepala baru ular.
-- Jika game selesai, munculkan dialog baru untuk menampilkan score. Dan jika dialog ditutup, game akan mereset ke posisi awal lagi.
+- Jika game selesai, munculkan dialog baru untuk menampilkan score. 
+- Pengguna diberikan dua pilihan , apakah restart atau exit game.
+- Jika Restart, maka kembali ke permainan langsung tanpa melalui menu awal. Jika Exit, maka akan keluar aplikasi
