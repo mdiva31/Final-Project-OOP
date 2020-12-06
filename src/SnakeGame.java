@@ -1,5 +1,5 @@
 import java.awt.EventQueue;
-
+//Kelas Main
 
 public class SnakeGame {	
 	
