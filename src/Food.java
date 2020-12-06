@@ -1,6 +1,6 @@
 
 public class Food {
-	
+	//Kelas Food
 	private int foodX = 0;												
 	private int foodY = 0;
 	private boolean foodPlaced = false;
